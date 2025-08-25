@@ -6,7 +6,8 @@ load_dotenv()
 class Config:
     BOT_TOKEN = os.getenv("BOT_TOKEN", "8273775147:AAFlZtDYFs4GhaSmmfnHMTrVzEvsbZTV_Fc")
     ADMIN_ID = int(os.getenv("ADMIN_ID", "8010011335"))
-   API_HASH = os.getenv("API_HASH")
+    API_ID = os.getenv("API_ID")
+    API_HASH = os.getenv("API_HASH")
     BOT_NAME = "LifeBox"
     
     BKASH_NUMBER = os.getenv("BKASH_NUMBER", "01906721744")
